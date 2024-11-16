@@ -1,0 +1,87 @@
+body {  /* #DDD0C8*//*#323232*/
+   
+    background-image: url(img/bg_dark.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    @media only screen and (max-width: 768px) {
+     background-image: url(img/bg-mobil_dark.jpg)
+    }
+}
+
+a{
+    color: #DDD0C8;  
+    text-decoration: none; 
+    font-size: 200%;
+    font-weight:bolder;
+
+}
+
+a:active{
+   color: #323232;
+   
+}
+
+a:hover{
+    color: #323232;
+    @media only screen and (max-width: 768px) {
+        color: #DDD0C8;
+       }
+
+}
+   
+
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    gap: 5%;
+    @media only screen and (max-width: 768px) {
+        font-size: 70%;   
+        margin-left: 10%; 
+    }
+
+}
+.header-list{
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.Inscription{
+    display: block;
+    color:  #DDD0C8;   
+    text-align: left;
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-left: 55%;
+    font-size: 30px;
+    font-weight:bolder;
+    @media only screen and (max-width: 768px) {
+        margin-top: 0;
+        margin-left: 3%;;  
+        font-size: 22px;
+        text-align: center;
+    }
+   
+
+}
+#h1{
+    padding-top: 7%;
+    @media only screen and (max-width: 768px) {
+       margin-top: 45px;
+    }
+}
+#h2{
+    @media only screen and (max-width: 768px) {
+        margin-top: 45px;
+     }
+}
+   
